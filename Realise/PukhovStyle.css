@@ -1,0 +1,26 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.background {
+  background-image: url('./Pukhov.jpg');
+
+background-repeat: no-repeat;
+  background-size:contain;
+  height: 100%;
+ 
+}
+
+
+.blur {
+  animation: changeWidth 8s ease-in-out infinite;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px); 
+  border-right: 1px solid whitesmoke;
+  height: 100vh;
+}
+
